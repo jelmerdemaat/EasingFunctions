@@ -1,0 +1,25 @@
+{
+  "name": "easing-functions",
+  "version": "1.0.0",
+  "description": "A simple object containing easing functions",
+  "main": "EasingFunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelmerdemaat/EasingFunctions.git"
+  },
+  "keywords": [
+    "easing",
+    "javascript",
+    "cubic",
+    "linear"
+  ],
+  "author": "Jelmer de Maat <post@jelmerdemaat.nl> (http://jelmerdemaat.nl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jelmerdemaat/EasingFunctions/issues"
+  },
+  "homepage": "https://github.com/jelmerdemaat/EasingFunctions#readme"
+}
