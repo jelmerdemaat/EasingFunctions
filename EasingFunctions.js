@@ -8,7 +8,7 @@
  * only considering the t value for the range [0, 1] => [0, 1]
  */
 
-export default EasingFunctions = {
+const EasingFunctions = {
   // no easing, no acceleration
   linear: function (t) { return t },
   // accelerating from zero velocity
@@ -36,3 +36,5 @@ export default EasingFunctions = {
   // acceleration until halfway, then deceleration
   easeInOutQuint: function (t) { return t<.5 ? 16*t*t*t*t*t : 1+16*(--t)*t*t*t*t }
 }
+
+export default EasingFunctions;
